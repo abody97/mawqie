@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /.git/
+Disallow: /.env
+Disallow: /.htaccess
+Disallow: /backup/
+
+# Prevent access to sensitive directories
+Disallow: /cgi-bin/
+Disallow: /includes/
+Disallow: /admin/
+Disallow: /tmp/
+
+# Crawl-delay for bots
+Crawl-delay: 10
